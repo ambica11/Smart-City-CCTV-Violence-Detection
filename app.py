@@ -8,8 +8,8 @@ from keras.models import load_model
 app = Flask(__name__)
 
 # Load your models here
-model1 = load_model(r'C:\Users\LEELA\Desktop\CYS\5TH SEM\AINN Project\enhanced_optical_flow_nn_model.h5')
-model2 = load_model(r'C:\Users\LEELA\Desktop\CYS\5TH SEM\AINN Project\optical_flow_nn_model.h5')
+model1 = load_model(r'C:\Users\Desktop\CYS\5TH SEM\AINN Project\enhanced_optical_flow_nn_model.h5')
+model2 = load_model(r'C:\Users\Desktop\CYS\5TH SEM\AINN Project\optical_flow_nn_model.h5')
 
 # Define functions (video_to_frames, calculate_optical_flow, extract_features_from_optical_flow, etc.)
 
